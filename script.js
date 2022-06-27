@@ -4,7 +4,12 @@
 function generatePassword() {
 console.log("Hey! You clicked the button!")
 
-return "Generated password will go here";
+// 1. Prompt the user for the password criteria
+//  a. password length 8 < 128
+//  b. lowercase, uppercase, numbers, special characters 
+// 2. 
+
+return "Generated password will go here!";
 }
 
 // Get references to the #generate element
