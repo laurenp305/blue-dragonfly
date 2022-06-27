@@ -1,11 +1,9 @@
 // Assignment code here
 
-//*Generator functions - http://wwww.net-comber.com/charset.html *//
-function getRandomLower() {
-return String.fromCharCode(97))
-}
+function generatePassword(){
 
-console.log(Math.random() * 26);
+
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
