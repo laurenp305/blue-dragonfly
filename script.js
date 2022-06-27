@@ -8,8 +8,14 @@ console.log("Hey! You clicked the button!")
 let name=prompt("Please type a password");
 
 //  a. password length (between) 8 < 12
-var passwordLength = 12
-var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var passwordLength = 128;
+var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*_-+=";
+
+if (passwordLength > 128) {
+  greeting = "Too many characters";
+}
+
+}
 
 //  b. lowercase, uppercase, numbers, special characters 
 // 2. Validate the input (what the user inputs needs to be valid)
