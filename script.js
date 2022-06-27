@@ -11,10 +11,11 @@ let name=prompt("Please type a password");
 var passwordLength = 128;
 var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*_-+=";
 
+console.log("Too many characters")
 if (passwordLength > 128) {
   greeting = "Too many characters";
 }
-
+else if ()
 }
 
 //  b. lowercase, uppercase, numbers, special characters 
