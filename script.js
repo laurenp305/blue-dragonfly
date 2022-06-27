@@ -5,12 +5,15 @@ function generatePassword() {
 console.log("Hey! You clicked the button!")
 
 // 1. Prompt the user for the password criteria
+let name=prompt("Please type a password");
+
 //  a. password length (between) 8 < 128
 //  b. lowercase, uppercase, numbers, special characters 
 // 2. Validate the input (what the user inputs needs to be valid)
 // 3. Generatep assword based on criteria
-// 4. Display generated password on the page 
 
+
+// 4. Display generated password on the page 
 return "Generated password will go here!";
 }
 
