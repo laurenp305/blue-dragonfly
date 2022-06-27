@@ -1,5 +1,6 @@
 // Assignment code here
 
+//Define generate password 
 function generatePassword(){
 
 
