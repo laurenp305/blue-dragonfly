@@ -1,5 +1,8 @@
 // Assignment code here
 
+var passwordLength = 128;
+var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*_-+=";
+
 //Define generate password 
 function generatePassword() {
 console.log("Hey! You clicked the button!")
@@ -8,16 +11,10 @@ console.log("Hey! You clicked the button!")
 let name=prompt("Please type a password");
 
 //  a. password length (between) 8 < 12
-var passwordLength = 128;
-var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*_-+=";
 
-console.log("Too many characters")
-if (passwordLength > 128) {
-  greeting = "Too many characters";
+if (passwordLength && characters) {
+  console.log("You did it!")
 }
-else if ()
-}
-
 //  b. lowercase, uppercase, numbers, special characters 
 // 2. Validate the input (what the user inputs needs to be valid)
 // 3. Generatep assword based on criteria
