@@ -1,8 +1,8 @@
 // Assignment code here
 
 //Define generate password 
-function generatePassword(){
-
+function generatePassword() {
+console.log("Hey! You clicked the button!")
 
 }
 
