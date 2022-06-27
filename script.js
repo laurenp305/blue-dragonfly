@@ -4,6 +4,7 @@
 function generatePassword() {
 console.log("Hey! You clicked the button!")
 
+return "Generated password will go here";
 }
 
 // Get references to the #generate element
