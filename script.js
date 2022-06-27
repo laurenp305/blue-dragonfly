@@ -1,7 +1,11 @@
 // Assignment code here
 
-const alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const numbers = "01234566789";
+//*Generator functions - http://wwww.net-comber.com/charset.html *//
+function getRandomLower() {
+return String.fromCharCode(97))
+}
+
+console.log(Math.random() * 26);
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
