@@ -15,7 +15,8 @@ var passwordLength = "128";
 
 function genPassword() {
   var chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
-
+  var passwordLength = 12;
+  
 }
 
 //  a. password length (between) 8 < 12
