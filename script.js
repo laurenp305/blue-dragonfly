@@ -4,16 +4,25 @@
 function generatePassword() {
 console.log("Hey! You clicked the button!")
 
-var passwordLength=prompt("Input password between 8 and 12 characters");
-console.log(passwordLength)
-
 // 1. Prompt the user for the password criteria
+
+//  a. password length (between) 8 < 128
+var passwordLength=prompt("Input password between 8 and 128 characters");
+console.log(typeof passwordLength)
+
+if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
+  console.log("Success")
+  var lowercaseletters = confirm("Do you want lowercase letters?")
+  console.log(lowercaseletters)
+} else {
+  console.log("Error")
+}
 
 return 
 }
-//  a. password length (between) 8 < 12
 
 //  b. lowercase, uppercase, numbers, special characters 
+
 // 2. Validate the input (what the user inputs needs to be valid)
 // 3. Generate password based on criteria
 // 4. Display generated password on the page 
