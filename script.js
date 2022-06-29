@@ -4,16 +4,18 @@
 function generatePassword() {
 console.log("Hey! You clicked the button!")
 
+let passwordLength=prompt("Input password between 8 and 12 characters");
+
 // 1. Prompt the user for the password criteria
-let name=prompt("Please type a password");
+
+return 
 }
 //  a. password length (between) 8 < 12
+
 //  b. lowercase, uppercase, numbers, special characters 
 // 2. Validate the input (what the user inputs needs to be valid)
-// 3. Generatep assword based on criteria
+// 3. Generate password based on criteria
 // 4. Display generated password on the page 
-
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -29,3 +31,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
