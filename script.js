@@ -1,26 +1,35 @@
-// Assignment code here
-
-//Define generate password 
-function generatePassword() {
-console.log("Hey! You clicked the button!")
+// Assignment code heres
 
 // 1. Prompt the user for the password criteria
-
-//  a. password length (between) 8 < 128
-var passwordLength=prompt("Input password between 8 and 128 characters");
+function generatePassword() {
+  console.log("Hey! You clicked the button!")
+  // var name=prompt("Please type a password");
+  var passwordLength=prompt("Input password between 8 and 128 characters");
 console.log(typeof passwordLength)
 
 if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
   console.log("Success")
-  var lowercaseletters = confirm("Do you want lowercase letters?")
-  console.log(lowercaseletters)
 } else {
   console.log("Error")
+ }
+  // var lowercaseletters = confirm("Do you want lowercase letters?")
+  // console.log(lowercaseletters)
 }
+//  a. password length (between) 8 < 128
 
-return 
-}
+// function passwordLength() {
+// var passwordLength=prompt("Input password between 8 and 128 characters");
+// console.log(typeof passwordLength)
+// if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
+//   console.log("Success")
+//   var lowercaseletters = confirm("Do you want lowercase letters?")
+//   console.log(lowercaseletters)
+// } else {
+//  console.log("Error")
+// }
+// }
 
+//return 
 //  b. lowercase, uppercase, numbers, special characters 
 
 // 2. Validate the input (what the user inputs needs to be valid)
@@ -41,4 +50,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
