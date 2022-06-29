@@ -4,7 +4,8 @@
 function generatePassword() {
 console.log("Hey! You clicked the button!")
 
-let passwordLength=prompt("Input password between 8 and 12 characters");
+var passwordLength=prompt("Input password between 8 and 12 characters");
+console.log(passwordLength)
 
 // 1. Prompt the user for the password criteria
 
