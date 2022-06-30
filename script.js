@@ -1,46 +1,24 @@
 // Assignment code heres
 //User input variable codes
 
-
+var lowLetters = 'abcdefghijklmnopqrstuvwxyz'
+var upLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 // 1. Prompt the user for the password criteria
 function generatePassword() {
-  console.log("Hey! You clicked the button!")
-  // var name=prompt("Please type a password");
   var passwordLength=prompt("How many characters would you like your password to be? Choose between 8 and 128 characters");
-console.log(passwordLength)
-
 if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
-  console.log("Success")
+  var lowercaseLetters = confirm("Do you want lowercase letters?")
 } else {
-  console.log("Error")
+ alert("Try Again")
+ exit
  }
-
- 
-var lowercaseletters = confirm("Do you want lowercase letters?")
-  // console.log(lowercaseletters)
+ if (lowLetters) {
+  var uppercaseLetters = confirm("Do you want uppercase letters?")
+} else {
+  alert("Try Again")
+ }
 }
-//  a. password length (between) 8 < 128
 
-// function passwordLength() {
-// var passwordLength=prompt("Input password between 8 and 128 characters");
-// console.log(typeof passwordLength)
-// if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
-//   console.log("Success")
-//   var lowercaseletters = confirm("Do you want lowercase letters?")
-//   console.log(lowercaseletters)
-// } else {
-//  console.log("Error")
-// }
-// }
-
-//return 
-//  b. lowercase, uppercase, numbers, special characters 
-
-// 2. Validate the input (what the user inputs needs to be valid)
-// 3. Generate password based on criteria
-// 4. Display generated password on the page 
-
-// Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
