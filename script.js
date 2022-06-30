@@ -1,12 +1,12 @@
 // Assignment code heres
-
+//User input variable codes
 
 
 // 1. Prompt the user for the password criteria
 function generatePassword() {
   console.log("Hey! You clicked the button!")
   // var name=prompt("Please type a password");
-  var passwordLength=prompt("Input password between 8 and 128 characters");
+  var passwordLength=prompt("How many characters would you like your password to be? Choose between 8 and 128 characters");
 console.log(passwordLength)
 
 if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
@@ -14,7 +14,9 @@ if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
 } else {
   console.log("Error")
  }
-  // var lowercaseletters = confirm("Do you want lowercase letters?")
+
+ 
+var lowercaseletters = confirm("Do you want lowercase letters?")
   // console.log(lowercaseletters)
 }
 //  a. password length (between) 8 < 128
