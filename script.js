@@ -1,11 +1,13 @@
 // Assignment code heres
 
+
+
 // 1. Prompt the user for the password criteria
 function generatePassword() {
   console.log("Hey! You clicked the button!")
   // var name=prompt("Please type a password");
   var passwordLength=prompt("Input password between 8 and 128 characters");
-console.log(typeof passwordLength)
+console.log(passwordLength)
 
 if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
   console.log("Success")
