@@ -11,7 +11,10 @@ if (isNaN(passwordLength)) {
   window.alert("That's not a number! Try again.")
   return //returns back to where the function was originally called
 }
-
+if (passwordLength < 8 || passwordLength > 128) {
+  window.alert("Oops! Password length must be between 8 and 128 characters")
+  return
+}
 
 
 }
