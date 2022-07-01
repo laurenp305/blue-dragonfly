@@ -10,7 +10,6 @@ var rand = Math.random()
   return Math.floor(min*(1 - rand) + rand*max)
 }
 
-
 function getRandomItem(list) {
   return list[randomInt(0, list.length - 1)]
   }
@@ -59,14 +58,21 @@ if (userWantsLowercase === true) {
 
 if (userWantsUppercase === true) {
   optionsCart.push(uppercase)
-  }   
+  } 
+  
+if (optionsCart.length === 0) {
+optionsCart.push(uppercase)
+}
 
 var generatedPassword = ""
 
 for (var i = 0; 1 <passwordLength; i++) {
   var randomList = getRandomItem(optionsCart)
   var randomChar = getRandomItem(randomList)
+  generatedPassword += randomChar
 }
+
+
 
 }
 
