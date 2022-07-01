@@ -21,3 +21,5 @@
 - THEN the password is either displayed in an alert or written to the page
 ## Mock-Up
 ![image](https://user-images.githubusercontent.com/106932259/175785083-97f2a010-81f6-4bc5-a64e-1901ae67505a.png)
+# Link to live site:
+https://laurenp305.github.io/blue-dragonfly/
