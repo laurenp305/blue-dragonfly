@@ -36,6 +36,18 @@ if (userWantsNumbers === true) {
 optionsCart.push(numbers)
 }
 
+if (userWantsSymbols === true) {
+  optionsCart.push(symbols)
+  }
+
+if (userWantsLowercase === true) {
+   optionsCart.push(lowercase)
+   }
+
+if (userWantsUppercase === true) {
+  optionsCart.push(uppercase)
+  }   
+
 }
 //{
 //   var passwordLength=prompt("How long do you want your password to be? Choose between 8 and 128 characters");
