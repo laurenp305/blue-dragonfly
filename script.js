@@ -16,6 +16,9 @@ if (passwordLength < 8 || passwordLength > 128) {
   return
 }
 var userWantsNumbers= window.confirm("Would you like to have numbers in your password?")
+var userWantsSymbols= window.confirm("Would you like to have symbols in your password?")
+var userWantsLowercase= window.confirm("Would you like to have lowercase letters in your password?")
+var userWantsUppercase= window.confirm("Would you like to have uppercase letters in your password?")
 
 }
 //{
