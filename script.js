@@ -48,6 +48,9 @@ if (userWantsUppercase === true) {
   optionsCart.push(uppercase)
   }   
 
+var generatedPassword = ""
+
+
 }
 //{
 //   var passwordLength=prompt("How long do you want your password to be? Choose between 8 and 128 characters");
