@@ -2,11 +2,15 @@
 var generateBtn = document.querySelector("#generate");
 
 function randomInt(min, max) {
-  return Math.floor(Math.random()*(max - min) + min) 
+if (!max) {
+  max = min
+  min = 0
+}
+
 }
 
 function getRandomItem(list) {
-  return list[randomInt(0, optionsCart.length - 1]
+  return list[randomInt(0, list.length - 1)]
   }
 
 function generatePassword() {
@@ -59,21 +63,10 @@ var generatedPassword = ""
 
 for (var i = 0; 1 <passwordLength; i++) {
   var randomList = getRandomItem(optionsCart)
-  
+  var randomChar = getRandomItem(randomList)
 }
 
-
-
 }
-//{
-//   var passwordLength=prompt("How long do you want your password to be? Choose between 8 and 128 characters");
-// if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128 ) {
-//   var lowercaseLetters = confirm("Do you want to use lowercase letters?")
-// } else {
-//   alert("Sorry! Try a different number!")
-//   exit
-// }
-// }
 
 
 // Write password to the #password input
