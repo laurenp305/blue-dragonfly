@@ -9,9 +9,10 @@ var passwordLength = parseInt(userInput)
 
 if (isNaN(passwordLength)) {
   window.alert("That's not a number! Try again.")
+  return //returns back to where the function was originally called
 } else {
   window.alert("Woohoo! That's a valid number!")
-}
+} 
 }
 //{
 //   var passwordLength=prompt("How long do you want your password to be? Choose between 8 and 128 characters");
