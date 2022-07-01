@@ -5,7 +5,13 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
 var userInput = window.prompt("How long do you want your password to be? Choose between 8 and 128 characters.")
 
-var passwordLength = parseInt()
+var passwordLength = parseInt(userInput)
+
+if (isNaN(passwordLength)) {
+  window.alert("That's not a number! Try again.")
+} else {
+  window.alert("Woohoo! That's a valid number!")
+}
 }
 //{
 //   var passwordLength=prompt("How long do you want your password to be? Choose between 8 and 128 characters");
