@@ -15,7 +15,7 @@ if (passwordLength < 8 || passwordLength > 128) {
   window.alert("Oops! Password length must be between 8 and 128 characters")
   return
 }
-
+var userWantsNumbers= window.confirm("Would you like to have numbers in your password?")
 
 }
 //{
