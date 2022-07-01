@@ -33,7 +33,7 @@ for (var i = 0; i < lowercase.length; i++) {
 }
 
 if (userWantsNumbers === true) {
-
+optionsCart.push(numbers)
 }
 
 }
