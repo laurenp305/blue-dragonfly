@@ -1,25 +1,22 @@
-// Assignment code heres
-//User input variable codes
-
-var lowLetters = 'abcdefghijklmnopqrstuvwxyz'
-var upLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-// 1. Prompt the user for the password criteria
-function generatePassword() {
-  var passwordLength=prompt("How many characters would you like your password to be? Choose between 8 and 128 characters");
-if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128) {
-  var lowercaseLetters = confirm("Do you want lowercase letters?")
-} else {
- alert("Try Again")
- exit
- }
- if (lowLetters) {
-  var uppercaseLetters = confirm("Do you want uppercase letters?")
-} else {
-  alert("Try Again")
- }
-}
-
+// Assignment code here
 var generateBtn = document.querySelector("#generate");
+
+
+function generatePassword() {
+var userInput = window.prompt("How long do you want your password to be? Choose between 8 and 128 characters.")
+
+var passwordLength = parseInt()
+}
+//{
+//   var passwordLength=prompt("How long do you want your password to be? Choose between 8 and 128 characters");
+// if (parseInt(passwordLength) >= 8 && parseInt(passwordLength) <= 128 ) {
+//   var lowercaseLetters = confirm("Do you want to use lowercase letters?")
+// } else {
+//   alert("Sorry! Try a different number!")
+//   exit
+// }
+// }
+
 
 // Write password to the #password input
 function writePassword() {
