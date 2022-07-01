@@ -1,6 +1,9 @@
 // Assignment code here
 var generateBtn = document.querySelector("#generate");
 
+function randomInt(min, max) {
+  return Math.floor(Math.random()*(max - min) + min) 
+}
 
 function generatePassword() {
 var userInput = window.prompt("How long do you want your password to be? Choose between 8 and 128 characters.")
@@ -50,6 +53,9 @@ if (userWantsUppercase === true) {
 
 var generatedPassword = ""
 
+for (var i = 0; 1 <passwordLength; i++) {
+  Math.random()
+}
 
 }
 //{
